@@ -1,0 +1,24 @@
+name: FacePrivPres
+channels:
+  - conda-forge
+  - pytorch
+  - nvidia
+dependencies:
+  - python >= 3.10
+  - pip
+  - pytorch=1.13.0
+  - cudatoolkit=11.6
+  - torchvision=0.14.0
+  - pip:
+    - opencv-python
+    - pandas
+    - numpy<1.24
+    - tqdm
+    - scikit-learn
+    - scikit-image 
+    - matplotlib
+    - Pillow
+    - scikit-video
+    - facenet_pytorch
+    - pyyaml
+
